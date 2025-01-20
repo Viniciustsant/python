@@ -9,7 +9,7 @@
 #for name in names_of_friends:
 #    print (name)
 
-# activity 2
+# Simple Shopping list on Python
 shopping_lists = []
 
 shopping_itens = ""
@@ -25,7 +25,7 @@ print ("\nThe shopping list with indexes is:")
 for i in range (len (shopping_lists)):
     print (f"{i}. {shopping_lists[i]}")
 
-#trocar item
+#switch iten
 index_number = int ( input ("\nWhich item would you like to change?  "))
 new_item = input ("\nWhat is the new item?  ")
 shopping_lists[index_number] = new_item
